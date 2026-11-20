@@ -1,6 +1,39 @@
-<iframe 
-    title="3D Interactive Model" 
-    src="./model.html" 
-    allowfullscreen 
-    allow="autoplay; fullscreen; xr-spatial-tracking">
-</iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>3D Plant Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #15131c;
+        }
+
+        iframe {
+            position: fixed;
+            inset: 0;
+            width: 100vw;
+            height: 100vh;
+            border: 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        title="3D Interactive Plant Model" 
+        src="./model.html" 
+        allowfullscreen 
+        allow="autoplay; fullscreen; xr-spatial-tracking">
+    </iframe>
+</body>
+</html>
