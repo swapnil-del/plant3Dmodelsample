@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Bacteria Model</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
         
         body, html { 
             width: 100%; 
             height: 100%; 
             overflow: hidden; 
-            background-color: #f0f0f0; 
+            background-color: #15131c; 
         }
 
-        .sketchfab-embed-wrapper {
-            position: absolute;
+        iframe {
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        iframe {
-            /* We force the iframe to be slightly LARGER than the container 
-               to zoom in on the bacteria model */
-            width: 100% !important;
-            height: 120% !important; 
             border: none;
-            /* This shift helps center the bacteria if it's sitting too low */
-            margin-top: -5%; 
         }
     </style>
 </head>
 <body>
+
+    <iframe 
+        title="3D Interactive Model" 
+        src="./3d-interactive-protected (1).html" 
+        allowfullscreen 
+        allow="autoplay; fullscreen; xr-spatial-tracking">
+    </iframe>
 
 </body>
 </html>
