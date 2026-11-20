@@ -2,36 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Plant Model</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html, body {
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-            background-color: #15131c;
-        }
-
-        iframe {
-            position: fixed;
-            inset: 0;
-            width: 100vw;
-            height: 100vh;
-            border: 0;
-            display: block;
-        }
-    </style>
 </head>
-<body>
+<body style="margin: 0; padding: 0; overflow: hidden; background: #15131c;">
     <iframe 
-        title="3D Interactive Plant Model" 
+        title="3D Interactive Plant Model"
         src="./model.html" 
+        width="100%" 
+        height="100%" 
+        style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; border: none;"
         allowfullscreen 
         allow="autoplay; fullscreen; xr-spatial-tracking">
     </iframe>
